@@ -1,0 +1,18 @@
+2026-08-07 20:01:29 | INFO     | wrapper:58 | === START: run_process ===
+2026-08-07 20:01:29 | INFO     | run_process:336 | COH (Cash on Hand)
+2026-08-07 20:01:29 | INFO     | cleanup_old_logs:265 | Starting log cleanup in directory: D:\Cash_on_hand\logs
+2026-08-07 20:01:29 | INFO     | cleanup_old_logs:279 | Number of log files (3) within limit (12). No files deleted.
+2026-08-07 20:01:30 | INFO     | run_process:363 | found excel file prefix 'JS_' count 2 file: ['JS_889_202504.xlsx', 'JS_All_Not889_202504.xlsx']
+2026-08-07 20:01:30 | INFO     | run_process:374 | 
+--- Start process: D:\Cash_on_hand\Input\JS_889_202504.xlsx ---
+2026-08-07 20:01:30 | INFO     | run_process:378 | Complete read transaction excel file: JS_889_202504.xlsx
+2026-08-07 20:01:30 | INFO     | run_process:380 | complete merge data JS_889_202504.xlsx
+2026-08-07 20:01:31 | INFO     | run_process:412 | complete process call function
+2026-08-07 20:01:32 | INFO     | run_process:433 | Moved 'JS_889_202504.xlsx' to backup.
+2026-08-07 20:01:32 | INFO     | run_process:374 | 
+--- Start process: D:\Cash_on_hand\Input\JS_All_Not889_202504.xlsx ---
+2026-08-07 20:01:34 | INFO     | run_process:378 | Complete read transaction excel file: JS_All_Not889_202504.xlsx
+2026-08-07 20:01:34 | INFO     | run_process:380 | complete merge data JS_All_Not889_202504.xlsx
+2026-08-07 20:01:42 | INFO     | run_process:412 | complete process call function
+2026-08-07 20:01:58 | INFO     | run_process:433 | Moved 'JS_All_Not889_202504.xlsx' to backup.
+2026-08-07 20:01:58 | INFO     | wrapper:61 | === END: run_process ===
