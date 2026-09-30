@@ -1,0 +1,5 @@
+__version__ = "1.0.5"
+"2026-08-11-13:25 - 1.0.5 = Build coh_pipeline.py as onefile exe (frozen-aware config)"
+"2025-07-23-09:44 - 1.0.4 = Edit add row process!!!!!!!"
+"2025-03-20-10:08 - 1.0.3 = Edit add row process!!!!!!!"
+"2025-03-13-09:17 - 1.0.2 = Message Added fix bugs !!!!!!!"
