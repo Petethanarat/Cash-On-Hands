@@ -1,0 +1,43 @@
+# ─────────────────────────────────────────────────────────────
+# Cash on Hand (COH) — .gitignore
+# ─────────────────────────────────────────────────────────────
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+dist/
+*.spec
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Packaged binaries (352 MB build — never commit) ---
+*.exe
+
+# --- Power BI (binary + embeds a cached copy of the data model) ---
+# Commit screenshots to docs/ instead of the .pbix itself.
+*.pbix
+
+# --- Original / real source data (keep OUT of the repo) ---
+# The committed Input/ files are synthetic mock samples only.
+bra_bra/
+*_ori.xlsx
+
+# --- Runtime artifacts ---
+logs/
+Input/back_up/
+
+# --- Excel lock/temp files ---
+~$*.xls*
+
+# --- Editor / OS noise ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
